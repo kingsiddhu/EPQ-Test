@@ -4,7 +4,7 @@ var quizdata = [
         options : ["Yes","No"],
         answer : "Yes",
         type : "1"
-    },
+    }/*,
     {
         question : "Do you enjoy hurting people you love?",
         options : ["Yes","No"],
@@ -178,7 +178,7 @@ var quizdata = [
         options : ["Yes","No"],
         answer : "No",
         type : "4"
-    }
+    }*/
     
 
 ];
@@ -254,6 +254,6 @@ function nextQuestion(){
 
 function showResult(){
 
-    document.getElementById('quiz').innerHTML = Psychotism_score+ ""+extraversion_score+""+neuroticism_score+""+lie_score;
+    document.getElementById('quiz').innerHTML = "<h3>Psycotism Score: "+Psychotism_score+ "</h3><h3>Extraversion Score: "+extraversion_score+"</h3><h3>Neurotism Score: "+neuroticism_score+"</h3><h3>Lie Score: "+lie_score+"</h3>";
 }
 showQuestion();
