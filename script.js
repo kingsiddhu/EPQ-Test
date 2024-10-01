@@ -4,7 +4,7 @@ var quizdata = [
         options : ["Yes","No"],
         answer : "Yes",
         type : "1"
-    }/*,
+    },
     {
         question : "Do you enjoy hurting people you love?",
         options : ["Yes","No"],
@@ -178,7 +178,7 @@ var quizdata = [
         options : ["Yes","No"],
         answer : "No",
         type : "4"
-    }*/
+    }
     
 
 ];
