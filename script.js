@@ -254,6 +254,6 @@ function nextQuestion(){
 
 function showResult(){
 
-    document.getElementById('quiz').innerHTML = "<h3>Psycotism Score: "+Psychotism_score+ "</h3><h3>Extraversion Score: "+extraversion_score+"</h3><h3>Neurotism Score: "+neuroticism_score+"</h3><h3>Lie Score: "+lie_score+"</h3>";
+    document.getElementById('quiz').innerHTML = "<h3>Psycotism Score: "+Psychotism_score+ "</h3><h3>Extraversion Score: "+extraversion_score+"</h3><h3>Neurotism Score: "+neuroticism_score+"</h3><h3>Lie Score: "+lie_score+"</h3><br><buttononclick=\"location.href='./index.html';\">Restart Quiz</button>";
 }
 showQuestion();
